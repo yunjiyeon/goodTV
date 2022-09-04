@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* 내가 지정한 박스 사이즈 안에 들어감 */
+}
+ul, li { /* ul, ㅣi 태그의 특징 : 텍스트 앞에 점 또는 숫자가 지정됨 */
+    list-style: none;
+}
+a{ /* a 태그의 특징 : 언더라인, 텍스트 색깔이 자동으로 들어가져 있음 */
+    text-decoration: none;
+    color : inherit; /* 상위에 지정된 색깔을 따라 적용 */    
+}
+img {
+    vertical-align: middle; /* 이미지와 이미지 사이에 여백이 생기는 걸 막아 줌 */
+}
